@@ -12,6 +12,10 @@
 
         <h1> <a href="index.html">Volver al inicio</a> </h1>
 
+        <br>
+
+        <h1>Form Validation</h1>
+
         <form>
             <label> Name: </label>
             <input type="text">
@@ -34,27 +38,60 @@
             <br>
 
             <label> Gender: </label>
-            <input type="text">
+        
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label>Male</label>
+
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label>Female</label>
+
+            <input type="radio" id="Other" name="Gender" value="Other">
+            <label>Other</label>
 
             <br>
 
             <label> Programming skills: </label>
-            <input type="text">
+
+            <input type="checkbox">
+            <label>Java</label>
+
+            <input type="checkbox">
+            <label>Android</label>
+
+            <input type="checkbox">
+            <label>Ruby</label>
+
+            <input type="checkbox">
+            <label>.Net</label>
 
             <br>
 
             <label> Contact no: </label>
-            <input type="text">
+            <input type="number">
 
             <br>
 
             <label> Email: </label>
-            <input type="text">
+            <input type="email" placeholder="tuCorreo@dominio.com">
 
             <br>
 
             <label> College: </label>
-            <input type="text">
+            <select>
+                <option>Hardvard</option>
+                <option>Standford</option>
+                <option>Oxford</option>
+            </select>
+
+            <br>
+
+            <input type="submit" value="Submit">
+
+            <br>
+            <br>
+
+            <h2>Your Details:</h2>
+
             
         </form>
     </body>
